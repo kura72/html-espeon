@@ -1,0 +1,67 @@
+header {
+    padding: 100px;
+    margin-top: 30px;
+    color: #2E99A9;
+    background-image: url('ZOOM_BG_goods_A_1920.jpg');
+}
+
+hr {
+    border-width: 3px;
+    border-color: #2E99A9;
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 100px;
+
+}
+
+
+
+
+.align-right {
+    text-align: right;
+}
+
+/* body {
+    background-image: url('ZOOM_BG_goods_A_1920.jpg');
+} */
+
+
+/* フォーム全体に背景画像を適用 */
+form {
+    background-image: url('ZOOM_BG_goods_A_1920.jpg');
+    /* 画像のパスを指定 */
+    background-size: cover;
+    /* 画像をフォームの幅に合わせて表示 */
+    background-position: center;
+    /* 画像を中央に配置 */
+    padding: 30px;
+    /* フォーム内の余白を設定 */
+    border-radius: 10px;
+    /* フォームの角を丸くする */
+    display: block;
+}
+
+/* フォーム内のコンテンツ部分（テキスト部分）の背景を白くする */
+form .form-group {
+    background-color: white;
+    /* 白い背景 */
+    padding: 15px;
+    /* 内側に余白を加える */
+    border-radius: 5px;
+    /* 角を丸くする */
+    margin-bottom: 15px;
+    /* 各フォーム要素の間隔 */
+    border: 1px solid #ccc;
+    /* 枠線 */
+}
+
+@media only screen and (max-width:992px) {
+    .radio-inline {
+        display: block;
+        margin: 0 !important;
+    }
+}
